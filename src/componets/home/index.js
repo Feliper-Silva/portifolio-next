@@ -9,7 +9,7 @@ import {
   InfoContainer
 } from '../../../styles/Home';
 import Image from 'next/image';
-import MeAvatar from '../../assets/images/undraw_launching_re_tomg.svg';
+import MeAvatar from '../../assets/images/undraw_folder_re_j0i0.svg';
 export const HomePrimary = () => {
   return (
     <>

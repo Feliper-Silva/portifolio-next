@@ -11,6 +11,7 @@ export const Container = styled.nav`
 
 export const Title = styled.div`
   font-size: 24px;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-weight: 700;
   margin: 0 80px 0;
@@ -19,11 +20,14 @@ export const NavLinksContainer = styled.div`
   display: flex;
   flex: 1 1;
   justify-content: flex-end;
+  margin-right: 100px;
 `;
 export const NavLinks = styled.a`
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
+
   color: #fff;
+  font-weight: 500;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;

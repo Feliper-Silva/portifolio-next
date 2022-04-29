@@ -3,7 +3,7 @@ import {
   Title,
   NavLinksContainer,
   NavLinks
-} from '../../../styles/Navbar';
+} from "../../../styles/Navbar";
 
 export const Navbar = () => {
   return (
@@ -11,8 +11,8 @@ export const Navbar = () => {
       <Container>
         <Title>Portifólio</Title>
         <NavLinksContainer>
-          <NavLinks>Inicio</NavLinks>
-          <NavLinks>Home</NavLinks>
+          <NavLinks href="/">Inicio</NavLinks>
+          <NavLinks href="/about">Sobre</NavLinks>
           <NavLinks>Home</NavLinks>
         </NavLinksContainer>
       </Container>
