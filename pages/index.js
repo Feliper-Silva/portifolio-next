@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { Navbar } from "../src/componets/navbar";
-import { HomePrimary } from "../src/componets/home/index";
+import { Navbar } from "../src/components/navbar.js";
 import MeAvatar from "../src/assets/images/undraw_folder_re_j0i0.svg";
 import Image from "next/image";
 // className={styles.container}

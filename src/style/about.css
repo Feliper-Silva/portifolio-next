@@ -1,0 +1,35 @@
+.about .title {
+  color: #0d6efd;
+  text-align: center;
+}
+.about .about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .about-content .left {
+  margin-left: 5%;
+  width: 25%;
+}
+.about .about-content .right {
+  width: 65%;
+}
+.about .about-content .right .text {
+  color: #fff;
+  margin-right: 10%;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about .about-content .right p {
+  text-align: justify;
+}
+
+.about .about-content .left img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
