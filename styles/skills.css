@@ -1,0 +1,25 @@
+.section {
+  flex-wrap: wrap;
+  order: -1;
+}
+.title {
+  text-align: center;
+  color: #0d6efd;
+  margin-bottom: 30px;
+}
+.containerHardSkills,
+.containerSoftSkills {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.containerSkill p,
+.containerSoftSkills p {
+  text-align: center;
+  color: #fff;
+}
+.containerSkill {
+  margin: 15px;
+}

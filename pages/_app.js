@@ -1,7 +1,9 @@
 import "../styles/globals.css";
-import "../src/style/home.css";
-import "../src/style/navbar.css";
-import "../src/style/about.css";
+import "../styles/home.css";
+import "../styles/navbar.css";
+import "../styles/about.css";
+import "../styles/skills.css";
+import "../styles/projects.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
