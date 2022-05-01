@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Navbar } from "../src/components/navbar";
 const projects = () => {
   return (
@@ -10,11 +11,13 @@ const projects = () => {
             <div className="text-content">
               <h3>Devagram</h3>
               <p>
-                Api semelhante ao instagram, podendo publicar fotos é seguir
+                API semelhante ao instagram, podendo publicar fotos é seguir
                 outros usuários da api. Além de cadastro de usuário, verificação
                 e sistema de pesquisa pelo nome ou email do usuário
               </p>
-              <a>ver mais</a>
+              <Link href="https://github.com/Feliper-Silva/devagram-node-nextjs">
+                <a target="_blank">ver mais</a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -25,7 +28,9 @@ const projects = () => {
                 adicionar perguntas e responder a pergunta realizada + marcação
                 de resposta respondida
               </p>
-              <a>ver mais</a>
+              <Link href="https://github.com/Feliper-Silva/letmeask">
+                <a target="_blank">ver mais</a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -35,7 +40,9 @@ const projects = () => {
                 Com sistema de criação de notas cada usuário cria suas notas,
                 podendo pesquisar as notas e atualizar em tempo real.
               </p>
-              <a>ver mais</a>
+              <Link href="https://github.com/Feliper-Silva/client_evernote_clone">
+                <a target="_blank">ver mais</a>
+              </Link>
             </div>
           </div>
           <div className="box">
@@ -45,7 +52,9 @@ const projects = () => {
                 Aplicação com modelo do discord, sistema de chat em tempo real
                 com os amigos é criação de sala pessoal!
               </p>
-              <a>ver mais</a>
+              <Link href="https://github.com/Feliper-Silva/aluracord">
+                <a target="_blank">ver mais</a>
+              </Link>
             </div>
           </div>
         </div>
