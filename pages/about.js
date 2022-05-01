@@ -1,6 +1,7 @@
 import { Navbar } from "../src/components/navbar";
 import myPerfil from "../src/assets/images/foto-perfil.png";
 import Image from "next/image";
+import { Footer } from "../src/components/footer.js";
 const Sobre = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const Sobre = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

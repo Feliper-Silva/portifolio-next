@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Navbar } from "../src/components/navbar";
+import { Footer } from "../src/components/footer.js";
 const projects = () => {
   return (
     <>
@@ -59,6 +60,7 @@ const projects = () => {
           </div>
         </div>
       </section>
+      <Footer id="footer" />
     </>
   );
 };
