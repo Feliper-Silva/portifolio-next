@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Navbar } from "../src/components/navbar";
 import myPerfil from "../src/assets/images/foto-perfil.png";
 import Image from "next/image";
@@ -5,6 +6,11 @@ import { Footer } from "../src/components/footer.js";
 const Sobre = () => {
   return (
     <>
+      <Head>
+        <title>Portfólio - Sobre </title>
+        <meta name="description" content="Página sobre Felipe Silva" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <section className="about" id="about">
         <div className="max-width">

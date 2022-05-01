@@ -1,9 +1,15 @@
 import Link from "next/link";
+import Head from "next/head";
 import { Navbar } from "../src/components/navbar";
 import { Footer } from "../src/components/footer.js";
 const projects = () => {
   return (
     <>
+      <Head>
+        <title>Portfólio - Projetos </title>
+        <meta name="description" content="Página Projetos Felipe Silva" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <section className="projects">
         <h2>Projetos</h2>

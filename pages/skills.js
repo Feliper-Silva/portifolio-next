@@ -1,4 +1,5 @@
 import { Navbar } from "../src/components/navbar";
+import Head from "next/head";
 import Image from "next/image";
 import logoHTML5 from "../src/assets/images/html-5.png";
 import logoCSS from "../src/assets/images/css.png";
@@ -17,6 +18,11 @@ import { Footer } from "../src/components/footer.js";
 const skills = () => {
   return (
     <>
+      <Head>
+        <title>Portfólio - Skills </title>
+        <meta name="description" content="Página skills Felipe Silva" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <main>
         <section className="section">
