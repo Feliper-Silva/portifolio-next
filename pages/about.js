@@ -30,7 +30,6 @@ const Sobre = () => {
           </div>
         </div>
       </section>
-      );
     </>
   );
 };

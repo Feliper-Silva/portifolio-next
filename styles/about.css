@@ -1,5 +1,5 @@
 #about {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 70px);
 }
 .about .title {
   color: #0d6efd;
@@ -35,4 +35,33 @@
   height: 150px;
   object-fit: cover;
   border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .about .about-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .about .about-content .left {
+    width: 350px;
+    margin-bottom: 20px;
+  }
+  .about .about-content .right .text {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .about .about-content {
+    align-items: center;
+    justify-content: center;
+  }
+  .about .about-content .left {
+    width: 70%;
+  }
+  .about .about-content .right .text {
+    width: 100%;
+  }
+  .about .about-content .right p {
+    font-size: 15px;
+    margin-bottom: 1.2em;
+  }
 }
