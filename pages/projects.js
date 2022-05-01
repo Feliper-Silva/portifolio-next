@@ -40,7 +40,7 @@ const projects = () => {
           </div>
           <div className="box">
             <div className="text-content">
-              <h3> aluracord</h3>
+              <h3> Aluracord</h3>
               <p>
                 Aplicação com modelo do discord, sistema de chat em tempo real
                 com os amigos é criação de sala pessoal!

@@ -1,3 +1,6 @@
+#about {
+  height: calc(100vh - 100px);
+}
 .about .title {
   color: #0d6efd;
   text-align: center;
