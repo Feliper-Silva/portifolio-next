@@ -8,10 +8,11 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Next.Js](https://nextjs.org)
-
+## 💻 Sobre
+Portfólio Web de Felipe Silva para mostrar alguns projetos e tecnologias utilizadas, além de conhecer um pouco sobre ele.
 ## :rocket: Como executar
 
-# Clone o repositório
+## Clone o repositório
 
 ```sh
 git clone https://github.com/Feliper-Silva/portifilio-next
