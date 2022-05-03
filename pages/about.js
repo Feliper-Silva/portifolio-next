@@ -22,16 +22,16 @@ const Sobre = () => {
             <div className="column right">
               <div className="text">
                 <p>
-                  Olá Meu nome é Felipe Silva, tenho 23 moro em brasília - DF
+                  Olá Meu nome é Felipe Silva, tenho 23 moro em brasília - DF e
                   estou cursando análise e desenvolvimento de sistemas
                 </p>
                 <p>
-                  Apaixonado por tecnologia desda época do Orkut e entusiasta
+                  Apaixonado por tecnologia desde a época do Orkut e entusiasta
                   com as tecnologias web, passo meu tempo estudando e codando
-                  projetos. Estou disponível para novos desafios, vamos nos
-                  conhecer mais?
+                  projetos. Como uma pessoa curiosa tento sempre saber algo novo
+                  até entender como funciona o máximo possível. Estou disponível
+                  para novos desafios, vamos nos conhecer mais?
                 </p>
-                <p></p>
               </div>
             </div>
           </div>
