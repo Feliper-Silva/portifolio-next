@@ -28,7 +28,7 @@ npm install
 npm run dev
 ```
 
-Por fim, a aplicação estará disponível em http://localhost:3000/api
+Por fim, a aplicação estará disponível em http://localhost:3000/
 
 ## :page_facing_up: Licença
 
