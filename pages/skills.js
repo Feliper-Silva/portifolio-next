@@ -28,12 +28,12 @@ const skills = () => {
         <section className="section">
           <h2 className="title">Hard skills</h2>
           <div className="containerHardSkills">
-            <div className="containerSkill">
+            <div id="logoHTML5" className="containerSkill">
               <p>HTML5</p>
               <Image
                 src={logoHTML5}
-                width={210}
-                height={210}
+                width={150}
+                height={150}
                 alt="Logo do HTML5"
               />
             </div>

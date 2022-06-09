@@ -50,6 +50,9 @@
   }
 }
 @media (max-width: 480px) {
+  #about {
+    height: 100%;
+  }
   .about .about-content {
     align-items: center;
     justify-content: center;

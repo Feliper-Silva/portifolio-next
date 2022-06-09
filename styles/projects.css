@@ -1,5 +1,5 @@
 .projects {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 7.1rem);
 }
 .projects h2 {
   text-align: center;
@@ -21,6 +21,7 @@
   background: #fff;
   transition: 0.3s;
   overflow: hidden;
+  border-radius: 0.5rem;
 }
 .box:hover {
   transform: translateY(-15px);
@@ -69,4 +70,10 @@
 .text-content a {
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+.projects{
+  height: 100%;
+}
 }
