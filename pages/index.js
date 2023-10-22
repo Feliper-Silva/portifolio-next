@@ -21,20 +21,20 @@ const Home = () => {
               <p><span className="color-0">socialMedia</span> <span className="chave"></span></p>
 
               <p className="property">
-                <span className="color-2">"GitHub"</span><span>:</span>
-                <span className="color-1"><a href="https://github.com/Feliper-Silva" target="_blank">github.com/Feliper-Silva</a></span>,
+                <span className="color-2">GitHub</span><span>:</span>
+                <span className="color-1"><a href="https://github.com/Feliper-Silva" rel="noopener noreferrer" target="_blank" >github.com/Feliper-Silva</a></span>,
               </p>
               <p className="property">
-                <span className="color-2">"Linkedin"</span><span>:</span>
-                <span className="color-1"><a href="https://www.linkedin.com/in/feliper-silva/" target="_blank">linkedin.com/in/feliper-silva</a></span>,
+                <span className="color-2">Linkedin</span><span>:</span>
+                <span className="color-1"><a href="https://www.linkedin.com/in/feliper-silva/" rel="noopener noreferrer" target="_blank" >linkedin.com/in/feliper-silva</a></span>,
               </p>
               <p className="property">
-                <span className="color-2">"Email"</span><span>:</span>
-                <span className="color-1"><a href="mailto:felipe726silva@gmail.com" target="_blank">felipe726silva@gmail.com</a></span>,
+                <span className="color-2">Email</span><span>:</span>
+                <span className="color-1"><a href="mailto:felipe726silva@gmail.com" rel="noopener noreferrer" target="_blank">felipe726silva@gmail.com</a></span>,
               </p>
               <p className="property">
-                <span className="color-2">"Celular"</span><span>:</span>
-                <span className="color-1"><a href="" target="_blank">(61)9 9589-1907</a></span>
+                <span className="color-2">Celular</span><span>:</span>
+                <span className="color-1">(61)9 9589-1907</span>
               </p>
               <span className="fechaChave"></span>
             </code>
@@ -104,7 +104,7 @@ const Home = () => {
             <div className="job">
               <div className="time-place">
                 <div className="job_company">
-                  <a href="https://www.osm.com.br/" target="_blank">Osm Consultoria e Sistema</a>
+                  <a href="https://www.osm.com.br/" target="_blank" rel="noopener noreferrer">Osm Consultoria e Sistema</a>
                 </div>
                 <div className="job_time">Mai 2022 - Atual</div>
               </div>
@@ -131,7 +131,7 @@ const Home = () => {
             <div className="job">
               <div className="time-place">
                 <div className="job_company">
-                  <a href="https://www.ifb.edu.br/" target="_blank">Intituto Federal de Brasília</a>
+                  <a href="https://www.ifb.edu.br/" target="_blank" rel="noopener noreferrer">Intituto Federal de Brasília</a>
                 </div>
                 <div className="job_time">Jul - Dez 2021</div>
               </div>
@@ -164,7 +164,7 @@ const Home = () => {
         <div className="project">
             <div className="project_name">
               <span>To-do-List Api</span>
-              <a href="https://github.com/Feliper-Silva/todo-list-spring-boot" target="_blank" className="arrow-link"></a>
+              <a href="https://github.com/Feliper-Silva/todo-list-spring-boot" rel="noopener noreferrer" target="_blank" className="arrow-link"></a>
             </div>
             <p>Criação da api de tarefas com java e springboot. Aprendiz com ele a mapear as rotas para usuarios com permissão.</p>
             <div className="project_skill_used">
@@ -176,7 +176,7 @@ const Home = () => {
           <div className="project">
             <div className="project_name">
               <span>Evernote Clone</span>
-              <a href="https://github.com/Feliper-Silva/client_evernote_clone" target="_blank" className="arrow-link"></a>
+              <a href="https://github.com/Feliper-Silva/client_evernote_clone" target="_blank" rel="noopener noreferrer" className="arrow-link"></a>
             </div>
             <p>Aplicação realizada para aprimorar os conhecimento em criação de api(Node ,express, JWT, mongoDB) e consumo de api(ReactJs, Sass). Aprendi bastante com o projeto, como integração de back-end e front-end como micro serviços e validação de usuários.</p>
             <div className="project_skill_used">
@@ -190,7 +190,7 @@ const Home = () => {
           <div className="project">
             <div className="project_name">
               <span>Sala Discord</span>
-              <a href="https://github.com/Feliper-Silva/aluracord" target="_blank" className="arrow-link"></a>
+              <a href="https://github.com/Feliper-Silva/aluracord" rel="noopener noreferrer" target="_blank" className="arrow-link" ></a>
             </div>
             <p>Aplicação realizada para aprimorar os conhecimento em Next e React, sala de discord com consumo de api de figurinhas da alura.</p>
             <div className="project_skill_used">
@@ -203,7 +203,7 @@ const Home = () => {
           <div className="project">
             <div className="project_name">
               <span>letmeask</span>
-              <a href="https://github.com/Feliper-Silva/letmeask" target="_blank" className="arrow-link"></a>
+              <a href="https://github.com/Feliper-Silva/letmeask" rel="noopener noreferrer" target="_blank" className="arrow-link"></a>
             </div>
             <p>permite criar salas de perguntas e respostas em tempo real com permissão somente de usuários com o codigo da sala. Projeto muito legal de realizar e aprimorar os conhecimento em React.</p>
             <div className="project_skill_used">
