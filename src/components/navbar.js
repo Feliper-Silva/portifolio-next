@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
 
   return (
-    <header>
+    <div className="navbar">
       <Link href="/">
         <a className="logo">Portfólio</a>
       </Link>
@@ -45,6 +45,6 @@ export const Navbar = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
   );
 };

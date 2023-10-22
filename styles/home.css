@@ -1,84 +1,324 @@
-.HomeContainer {
-  height: calc(100vh - 70px);
-  flex: 1 1;
-  flex-wrap: wrap;
-  margin: 0 80px 0;
+.intro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  padding: 140px 40px;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
-.ContainerUp {
+.intro>h2 {
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+.intro_hello {
+  width: 10rem;
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.intro_hello img {
+  height: 48px !important;
+  animation: wave infinite;
+}
+
+.wave_hand {
+  width: 20px;
+  height: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+.wave-hand.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.section_title {
+  width: 200px;
+  margin-right: 70px;
+  color: #007bff;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section_content {
+  font-weight: 400;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 650px;
+  padding: 50px 20px;
+}
+
+.section_content>p {
+  margin-top: 4px;
+}
+
+.section_content>p,
+.project>p {
+  text-align: justify;
+}
+
+.skillz {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.6s cubic-bezier(0.694, 0, 0.335, 1) 0s;
+}
+
+.skills {
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills_category_title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills_category ul {
+  list-style: none;
+}
+
+.skills_category_item {
+  margin: 3px 0;
+  font-size: .9rem;
+}
+
+.experience .jobs {
+  margin-bottom: 100px;
+}
+
+.experience .jobs .job {
+  margin-bottom: 25px;
+}
+
+.experience .jobs .job .time-place {
   display: flex;
   justify-content: space-between;
 }
 
-.Titulo {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 34px;
-  color: #ffffff;
-}
-.profissional {
-  color: #fff;
-  font-size: 18px;
-  line-height: 23px;
-  font-style: normal;
-  font-weight: 500;
+.job_position .job_position_title {
   margin-top: 10px;
+  border-bottom: 1px solid #007bff;
+  width: 64%;
 }
 
-.buttonsContainer {
-  display: flex;
-  margin: 50px 0 0px 0;
-}
-.button {
-  width: 143px;
-  height: 42px;
+.experience .job_company {
   font-weight: 700;
-  background: #0d6efd;
-  color: #fff;
-  margin: 10px;
-  border: 0;
-  cursor: pointer;
+  text-transform: uppercase;
 }
-.button {
-  text-align: center;
-  padding: 10px;
+
+.experience .job_position_activity {
+  text-align: justify;
+  padding: 15px 20px;
 }
-.button:hover {
-  color: #0d6efd;
-  background: #fff;
-  border: 1px solid #0d6efd;
-  filter: brightness(0.9);
+
+.job_position_activity_skill_item,
+.project_skill_used_item {
+  display: inline-block;
+  margin: 3px 3px 3px 0;
+  font-size: .75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #007bff;
+  border: 1px solid #007bff;
+  background: 0 0;
 }
-.containerImg {
+
+
+.arrow-link {
+  transition: all .2s ease-in-out;
+  display: inline-block;
+  background-color: transparent;
+  white-space: nowrap;
+}
+
+.arrow-link:after {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  position: relative;
+  bottom: 2px;
+  margin-left: 15px;
+  content: '';
+  background: url(../src/assets/images/arrow.png) no-repeat center;
+  background-size: 100%;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project .project_name {
+  margin-bottom: 10px;
+}
+
+.arrow-link:hover {
+  animation: move 1s;
+}
+
+
+@keyframes move {
+
+  100% {
+    margin-left: 20px;
+  }
+
+}
+
+@keyframes wave {
+  from {
+    -webkit-transform: none;
+    transform: none
+  }
+
+  15% {
+    -webkit-transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg)
+  }
+
+  30% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg)
+  }
+
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg)
+  }
+
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg)
+  }
+
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg)
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+
+@media (min-width: 764px) {
+
+  .section {
+    padding: 100px 170px;
+  }
+}
+
+
+.code-editor {
+  max-width: 500px;
+  background-color: #1d1e22;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 2px;
+  margin: auto 0;
+}
+
+.header {
   display: flex;
-  background: #0d6efd;
-  width: 385px;
-  height: 320px;
-  justify-content: center;
   align-items: center;
-  border-radius: 90%;
+  justify-content: space-between;
+  margin: 10px;
 }
 
-@media (max-width: 768px) {
-  .ContainerUp {
-    display: block;
-    order: -1;
-  }
-  .containerImg {
-    width: 420px;
-    height: 350px;
-    margin-top: 15px;
-  }
+.title {
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  letter-spacing: 1.57px;
+  color: rgb(212 212 212);
 }
 
-@media (max-width: 480px) {
-  .ContainerUp {
-    display: block;
-    order: -1;
-  }
-  .containerImg {
-    width: 250px;
-    height: 250px;
-    margin-top: 15px;
-  }
+.icon {
+  width: 20px;
+  transition: .2s ease;
+}
+
+.icon:hover {
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #6e7281;
+}
+
+.editor-content {
+  margin: 0 10px 10px;
+  color: white;
+}
+
+.property {
+  margin-top: 4px;
+  margin-left: 30px;
+}
+
+.property:hover {
+  cursor: text;
+}
+
+.editor-content .color-0 {
+  color: rgb(86 156 214);
+}
+
+.editor-content .color-1 {
+  color: rgb(182 206 168);
+}
+
+.editor-content .color-2 {
+  color: rgb(156 220 254);
+}
+
+.editor-content .color-3 {
+  color: rgb(207 146 120);
+}
+
+.color-preview-1,
+.color-preview-2 {
+  height: 8px;
+  width: 8px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.color-preview-1 {
+  background-color: #1d1e22;
+}
+
+.color-preview-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.chave::after {
+  content: '{';
+}
+
+.fechaChave::after {
+  content: '}';
 }
