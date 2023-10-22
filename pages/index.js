@@ -29,7 +29,7 @@ const Home = () => {
                 <span className="color-1"><a href="https://www.linkedin.com/in/feliper-silva/" rel="noopener noreferrer" target="_blank" >linkedin.com/in/feliper-silva</a></span>,
               </p>
               <p className="property">
-                <span className="color-2">Email</span><span>:</span>
+                <span className="color-2">E-mail</span><span>:</span>
                 <span className="color-1"><a href="mailto:felipe726silva@gmail.com" rel="noopener noreferrer" target="_blank">felipe726silva@gmail.com</a></span>,
               </p>
               <p className="property">
@@ -46,8 +46,8 @@ const Home = () => {
           Sobre
         </div>
         <div className="section_content">
-          <p>Desenvolvendo softwares há pelo menos dois anos, possuo conhecimentos tanto front-end e back-end e costumo aprender sob demanda as necessidades do projeto.</p>
-          <p>Atualmente na aréa de Full Stack com a linguagem Caché Object Script no back end e JavaScript no front-end, conheço outras linguagens e frameworks que atende as necessidades do mercado atual nos projetos pessoais.</p>
+          <p>Desenvolvendo softwares há pelo menos dois anos, possuo conhecimentos tanto em front-end como back-end e assim costumo aprender sob demanda as necessidades do projeto.</p>
+          <p>Estou atualmente na aréa de Full Stack com a linguagem Caché Object Script no back end e JavaScript no front-end, conheço outras linguagens e frameworks que atende as necessidades do mercado atual nos projetos pessoais.</p>
         </div>
       </section>
       <section className="section skillz">
