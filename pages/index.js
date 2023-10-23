@@ -166,7 +166,7 @@ const Home = () => {
               <span>To-do-List Api</span>
               <a href="https://github.com/Feliper-Silva/todo-list-spring-boot" rel="noopener noreferrer" target="_blank" className="arrow-link"></a>
             </div>
-            <p>Criação da api de tarefas com java e springboot. Aprendiz com ele a mapear as rotas para usuarios com permissão.</p>
+            <p>Criação da api de tarefas com java e springboot. Aprendi a mapear as rotas para usuarios com autorização.</p>
             <div className="project_skill_used">
               <span className="project_skill_used_item">Java</span>
               <span className="project_skill_used_item">Springboot</span>
@@ -205,7 +205,7 @@ const Home = () => {
               <span>letmeask</span>
               <a href="https://github.com/Feliper-Silva/letmeask" rel="noopener noreferrer" target="_blank" className="arrow-link"></a>
             </div>
-            <p>permite criar salas de perguntas e respostas em tempo real com permissão somente de usuários com o codigo da sala. Projeto muito legal de realizar e aprimorar os conhecimento em React.</p>
+            <p>Permite criar salas de perguntas e respostas em tempo real com permissão somente de usuários com o codigo da sala. Projeto muito legal de realizar e aprimorar os conhecimento em React.</p>
             <div className="project_skill_used">
               <span className="project_skill_used_item">JavaScript</span>
               <span className="project_skill_used_item">TypeScript</span>

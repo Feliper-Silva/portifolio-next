@@ -242,7 +242,12 @@
 .editor-content .color-3 {
   color: rgb(207 146 120);
 }
-
+.color-1::after,.color-2::after {
+  content: '"';
+}
+.color-1::before,.color-2::before {
+  content: '"';
+}
 .color-preview-1,
 .color-preview-2 {
   height: 8px;
