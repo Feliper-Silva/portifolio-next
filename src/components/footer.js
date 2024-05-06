@@ -4,9 +4,9 @@ export const Footer = () => {
   return (
     <>
       <footer>
-        <span> © 2023 - </span>
+        <span> © 2024 - </span>
         <Link href="https://linkedin.com/in/feliper-silva">
-          <a>Felipe Silva</a>
+          <a rel="noopener noreferrer" target="_blank">Felipe Silva</a>
         </Link>
       </footer>
     </>
