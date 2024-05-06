@@ -8,6 +8,11 @@ import { Footer } from "../src/components/footer.js";
 const Home = () => {
   return (
     <div>
+      <Head>
+        <title>Portfólio - Felipe Silva </title>
+        <meta name="description" content="Página sobre Felipe Silva" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header className="intro">
         <h1 className="intro_hello">Hello! <Image className="emoji wave-hand animated" src={Handle_wave} /></h1>
         <h2>Meu nome é Felipe Silva, sou desenvolvedor web! 👨🏽‍💻</h2>
@@ -104,9 +109,37 @@ const Home = () => {
             <div className="job">
               <div className="time-place">
                 <div className="job_company">
+                  <a href="https://www.servcom.com.br/" target="_blank" rel="noopener noreferrer">SERVCOM</a>
+                </div>
+                <div className="job_time">Dez 2023 - Atual</div>
+              </div>
+              <div className="job_position">
+                <div className="job_position_title">Programador Júnior</div>
+                <div className="job_position_activity">
+                  <ul>
+                    <li>Manutenção e evolução dos sistemas (RTD, RGI, RPJ, Protesto e Notas)</li>
+                    <li>Responsável por analisar, corrigir e desenvolver soluções viáveis e escaláveis; </li>
+                    <li>Habilidades técnicas utilizadas no Front-end e Back-end, utilizo a liguagem Cáche Object Script; </li>
+                    <li>Banco de dados utilizado Caché Intersystem modelo Dimensional;</li>
+                    <li>Auxíliar aos colegas de equipe, promovendo colaboração e compartilhamento de conhecimento; </li>
+                    <li>Utilização de metodologia ágil para o andamento eficiente das atividades, garantindo entregas de qualidade dentro dos prazos estabelecidos;</li>
+                  </ul>
+                  <div className="job_position_activity_skill">
+                    <ul>
+                      <li className="job_position_activity_skill_item">Caché Object Script</li>
+                      <li className="job_position_activity_skill_item">JavaScript</li>
+                      <li className="job_position_activity_skill_item">Caché Intersystem</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="job">
+              <div className="time-place">
+                <div className="job_company">
                   <a href="https://www.osm.com.br/" target="_blank" rel="noopener noreferrer">Osm Consultoria e Sistema</a>
                 </div>
-                <div className="job_time">Mai 2022 - Atual</div>
+                <div className="job_time">Mai 2022 - Abr 2024</div>
               </div>
               <div className="job_position">
                 <div className="job_position_title">Desenvolvedor Full Stack Júnior</div>
@@ -115,14 +148,16 @@ const Home = () => {
                     <li>Fornecer suporte e acompanhamento nas dificuldades operacionais do sistema MENTORH, esclarecendo dúvidas com os usuários,</li>
                     <li>Propor soluções técnicas para os problemas encontrados, através de evidências e testes em homologação que comprovem sua efetividade,</li>
                     <li>Analisar solicitações efetuadas pelos clientes, como criação de relatórios, novas telas e funcionalidades,</li>
+                    <li>Ferramentas diárias: Studio, Terminal, Terminal (Windows), Git, Docker, Google Meet e ClickUp.</li>
                   </ul>
                   <div className="job_position_activity_skill">
                     <ul>
                       <li className="job_position_activity_skill_item">HTML</li>
                       <li className="job_position_activity_skill_item">CSS</li>
                       <li className="job_position_activity_skill_item">JavaScript</li>
-                      <li className="job_position_activity_skill_item">bootstrap 3.3</li>
+                      <li className="job_position_activity_skill_item">bootstrap 3.2</li>
                       <li className="job_position_activity_skill_item">Caché Object Script</li>
+                      <li className="job_position_activity_skill_item">Caché Intersystem</li>
                     </ul>
                   </div>
                 </div>
@@ -139,8 +174,9 @@ const Home = () => {
                 <div className="job_position_title">Desenvolvedor Front - End</div>
                 <div className="job_position_activity">
                   <ul>
-                    <li>Inserção de contéudo,</li>
-                    <li>Estilização do Normaliza 2º Edição</li>
+                    <li>Realizei o desenvolvimento front-end utilizando HTML e CSS para criar interfaces e funcionais;</li>
+                    <li>Responsabilizei-me pela inserção de conteúdos, utilizando tanto MarkDown quanto HTML;</li>
+                    <li>Contribuí com a revisão e correção de erros</li>
                   </ul>
                   <div className="job_position_activity_skill">
                     <ul>
@@ -161,7 +197,7 @@ const Home = () => {
           Projetos
         </div>
         <div className="section_content">
-        <div className="project">
+          <div className="project">
             <div className="project_name">
               <span>To-do-List Api</span>
               <a href="https://github.com/Feliper-Silva/todo-list-spring-boot" rel="noopener noreferrer" target="_blank" className="arrow-link"></a>
